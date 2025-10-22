@@ -34,3 +34,10 @@ class Triangle(Shape):
         sides = sorted([self.a, self.b, self.c])
         #Проверяем, что квадрат гипотенузы примерно равен сумме квадратов катетов
         return isclose(sides[0] ** 2 + sides[1] ** 2, sides[2] ** 2, abs_tol=tolerance) #sides[0]2+sides[1]2≈sides[2]2
+
+'''
+Что можно улучшить:
+
+ * Добавить больше фигур
+ 
+'''
