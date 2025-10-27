@@ -34,13 +34,13 @@ time.sleep(1)     # Пауза, чтобы убедиться, что стран
 
 # Заполняем форму
 input1 = browser.find_element(By.NAME, 'first_name')
-input1.send_keys('Ivan')
+input1.send_keys('Danil')
 
 input2 = browser.find_element(By.NAME, 'last_name')
-input2.send_keys('Petrov')
+input2.send_keys('Shevchenko')
 
 input3 = browser.find_element(By.CLASS_NAME, 'form-control.city')
-input3.send_keys('Smolensk')
+input3.send_keys('Rostov-on0Don')
 
 input4 = browser.find_element(By.ID, 'country')
 input4.send_keys('Russia')
